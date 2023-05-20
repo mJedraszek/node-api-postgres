@@ -1,6 +1,4 @@
 const request = require('supertest');
-const assert = require('assert');
-const { isTypedArray } = require('util/types');
 
 describe ('api', () => {
     it('test get', function(done) {
